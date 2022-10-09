@@ -13,7 +13,7 @@ let trailer = document.getElementById("trailer").value ;
 let thumbnail = document.getElementById("thumbnail").value ;
 
 
-let not = "https://ak6414119.github.io/AKMovie4UPro/not.html";
+let not = "/.com/not.html";
 
 
 let container1 = document.getElementById('main_container1');
@@ -179,7 +179,7 @@ container1.innerHTML = `
         
         "Trailer": "` + trailer + `",
     
-        "Thumbnail": "https://ak6414119.github.io/AKMovie4UPro/hollywood/h_img/` + thumbnail + `"
+        "Thumbnail": "/hollywood/h_img/` + thumbnail + `"
       },
 
     </pre>`;
